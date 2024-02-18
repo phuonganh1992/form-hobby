@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOBBY FORM</title>
+    <style>
+      .grid-large-container {
+        display: grid;
+        grid-template-columns: 100px auto;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      fieldset {
+        border: none;
+      }
+      legend {
+        width: 100%;
+        background-color: orange;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      button {
+        background-color: rgb(183, 180, 180);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="">
+      <fieldset>
+        <legend>so thich cua ban</legend>
+        <div class="grid-large-container">
+          <label for="name" class="grid-large-item">Ho va ten:</label>
+          <input type="text" id="name" class="grid-large-item" />
+          <label for="email" class="grid-large-item">email:</label>
+          <input type="email" id="email" class="grid-large-item" />
+          <div class="grid-large-item">so thich:</div>
+          <div class="grid-container grid-large-item">
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="the thao"
+                id="thethao"
+              />
+              <label for="thethao">the thao</label>
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="am nhac"
+                id="amnhac"
+              />
+              <label for="amnhac">am nhac</label>
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="doc sach"
+                id="docsach"
+              />
+              <label for="docsach">doc sach</label> <br />
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="luot web"
+                id="luotweb"
+              />
+              <label for="luotweb">luot web</label>
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="choi game"
+                id="choigame"
+              />
+              <label for="choigame">choi game</label>
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="dien anh"
+                id="dienanh"
+              />
+              <label for="dienanh">dien anh</label>
+            </div>
+            <div class="grid-item">
+              <input
+                type="checkbox"
+                name="so thich"
+                value="du lich"
+                id="dulich"
+              />
+              <label for="dulich">am nhac</label>
+            </div>
+          </div>
+          <div class="grid-large-item"></div>
+          <div class="grid-large-item">
+            <button type="submit">gửi thông tin</button>
+            <button type="reset">nhập lại</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
